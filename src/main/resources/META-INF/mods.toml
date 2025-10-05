@@ -1,0 +1,24 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "GNU GPL 3.0"
+
+[[mods]]
+modId = "minrust"
+version = "2.0.0"
+displayName = "Minrust"
+authors = "y271727uy"
+description = '''Take the rust for Minecraft'''
+
+[[dependencies."minrust"]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."minrust"]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"

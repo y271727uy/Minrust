@@ -1,0 +1,11 @@
+[package]
+name = "minrust-native"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+jni = "0.21"
+
+[lib]
+name = "minrust_native"
+crate-type = ["cdylib"]
